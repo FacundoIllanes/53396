@@ -1,0 +1,17 @@
+{
+  "name": "53396",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -visitor -no-listener MiLenguaje.g4",
+  "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}
